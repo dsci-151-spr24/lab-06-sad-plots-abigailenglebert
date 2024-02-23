@@ -166,6 +166,7 @@ staff_long %>%
   geom_line()
   labs(
    title = "Faculty Trend over Time (1975-2011)",
+   subtitle = "Part-Time Faculty Increase",
    xlab = "",
    ylab = ""
   ) +
