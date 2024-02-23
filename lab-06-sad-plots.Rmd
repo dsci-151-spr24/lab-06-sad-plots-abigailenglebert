@@ -1,6 +1,7 @@
 ---
 title: "Lab 06 - Take a sad plot and make it better"
-output: 
+author: "Abby Englebert"
+output:
   tufte::tufte_html:
     css: ../lab.css
     tufte_variant: "envisioned"
