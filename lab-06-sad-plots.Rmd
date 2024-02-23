@@ -192,10 +192,12 @@ knitr::include_graphics("img/fisheries.png")
 
 4.  Can you help them make improve it? First, brainstorm how you would improve it. Then create the improved visualization and write up the changes/decisions you made as bullet points. It's ok if some of your improvements are aspirational, i.e. you don't know how to implement it, but you think it's a good idea.
 
+***Some ways to improve the chart would be to get ride of the pie charts on the right, and then organize the chart on the left so it is clearer to see and read. Maybe choose a differnt style of chart so you can see the data better, and change the colors and opacity.***
+
 Load the data.
 
 ```{r load-data-fisheries, eval = FALSE}
-fisheries <- read_csv("data/fisheries.csv")
+fisheries <- read_csv("data/fisheries.csv", show_col_types = FALSE)
 ```
 
 5.  Create a new data visualisation for these data that implements the improvements you proposed in the previous exercise (or many of them as you can).
